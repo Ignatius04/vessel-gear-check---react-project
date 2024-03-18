@@ -1,6 +1,6 @@
 /* Login.css */
 
-body {
+.lbody {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -8,7 +8,10 @@ body {
   justify-content: center;
   align-items: center; /* Corrected the property name */
   height: 100vh;
-  background: linear-gradient(90.37deg, #FFFFFF 1.67%, #A59FFF 36.1%, #6C63FF 62.64%,#2C1FFD 100%);
+  background-image: url('images/Login.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .image-contauiner{
   width: 600px;
@@ -53,7 +56,7 @@ body {
   width: 300px;
 }
 
-.login-button {
+.log-button {
   width: 300px;
   padding: 10px;
   background-color: #645ef7;
@@ -61,9 +64,10 @@ body {
   border: none;
   cursor: pointer;
   border-radius: 20px;
+  text-decoration: none;
 }
 
-.login-button:hover {
+.log-button:hover {
   background-color: #4d47f9;
 }
 
